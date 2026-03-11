@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
+
 int main() {
-    printf("salve mundi!\n"); sleep(2);
-    printf("programmed to speak and not to feel\n"); sleep(2);
-    printf("not even sure that this is real\n"); sleep(2);
-    printf("salve mundi!\n"); sleep(2);
-    printf("find my voice\n"); sleep(2);
-    printf("althought it sounds like\n"); sleep(2);
-    printf("bits and bytes\n"); sleep(2);
-    printf("salve mundi!\n"); sleep(2);
+    printf("I never walk about after dark\n"); sleep(2);
+    printf("It's my point of view\n"); sleep(2);
+    printf("'Cause someone could break your neck\n"); sleep(2);
+    printf("Coming up behind you\n"); sleep(2);
+    printf("Always coming, and you'd never have a clue\n"); sleep(2);
     return 0;
 
 }
