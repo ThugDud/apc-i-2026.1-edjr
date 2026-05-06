@@ -13,16 +13,33 @@ int main() {
     printf("\n\nEscolha sua opcao: ");
     scanf("%i", &escolha);
 
-    if(escolha == 1){
-        printf("\n\nNovo jogo começou, bem vindo ao tutorial");
-    } else if (escolha == 2){
-        printf("\n\nContinuando save, bem vindo a daggerfall");
-    } else if (escolha == 3){
-        printf("\n\nVoce pontuou 12312321 pontos parabens, ta em 12313º posicao no ranking");
-    } else if (escolha == 4){
-        printf("\n\nSaindo do jogo");
-    } else {
-        printf("\n\nOpcao invalida");
+    // if(escolha == 1){
+    //     printf("\n\nNovo jogo começou, bem vindo ao tutorial");
+    // } else if (escolha == 2){
+    //     printf("\n\nContinuando save, bem vindo a daggerfall");
+    // } else if (escolha == 3){
+    //     printf("\n\nVoce pontuou 12312321 pontos parabens, ta em 12313º posicao no ranking");
+    // } else if (escolha == 4){
+    //     printf("\n\nSaindo do jogo");
+    // } else {
+    //     printf("\n\nOpcao invalida");
+    // }
+
+    switch(escolha){
+        case 1:
+            printf("\n\nNovo jogo começou, bem vindo ao tutorial");
+            break;
+        case 2:
+            printf("\n\nContinuando save, bem vindo");
+            break;
+        case 3:
+            printf("\n\nVoce pontuou 12312321 pontos parabens, ta em 12313º posicao no ranking");
+            break;
+        case 4:
+            printf("\n\nSaindo do jogo");
+            break;
+        default:
+            printf("\n\nOpcao invalida");
     }
     
     return 0;
